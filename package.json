@@ -1,0 +1,27 @@
+{
+  "name": "museum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "parcel-plugin-static-files-copy": "^2.6.0"
+  },
+  "staticFiles" :{
+    "staticPath":[
+      {
+        "staticPath" : "static",
+        "staticOutDir":"img"
+      }
+    ]
+  }
+}
